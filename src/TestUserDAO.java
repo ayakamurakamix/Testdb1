@@ -19,12 +19,12 @@ public class TestUserDAO {
 				System.out.println(rs.getString("user_name"));
 				System.out.println(rs.getString("passeword"));
 			}
-		}catch (SQLException e ) {
+		} catch (SQLException e ) {
 			e.printStackTrace();
 		}
 		try {
 			con.close();
-		}catch(SQLException e ) {
+		} catch(SQLException e ) {
 			e.printStackTrace();
 		}
 	}
